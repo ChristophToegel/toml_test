@@ -21,6 +21,6 @@ dependencies = [
 url = "https://godatadriven.com/blog/a-practical-guide-to-setuptools-and-pyproject-toml"
 
 [tool.setuptools]
-package_dir = "./src"
+package-Kdir = "./src"
 
 
