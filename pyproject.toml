@@ -19,7 +19,7 @@ dependencies = [
 [project.urls]
 url = "https://godatadriven.com/blog/a-practical-guide-to-setuptools-and-pyproject-toml"
 
-[tool.setuptools]
-package-dir = {tomltest_package = "src"}
+[tool.setuptools.packages.find]
+where = ["src"]  # list of folders that contain the packages (["."] by default)
 
 
