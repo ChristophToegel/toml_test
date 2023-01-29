@@ -1,25 +1,6 @@
 [build-system]
-build-backend = "setuptools.build_meta"
 requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
 
-[project]
-name = "tomltest"
-version = "0.1.0"
-authors = [
-    {name = "Josiah Carberry", email = "josiah_carberry@brown.edu"},
-]
-description = "Example package description"
-readme = "README.md"
-keywords = ["example", "setuptools"]
-
-dependencies = [
-    "pandas == 1.4.1"
-]
-
-[project.urls]
-url = "https://godatadriven.com/blog/a-practical-guide-to-setuptools-and-pyproject-toml"
-
-[tool.setuptools.packages.find]
-where = ["src"]  # list of folders that contain the packages (["."] by default)
 
 
