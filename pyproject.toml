@@ -6,9 +6,8 @@ requires = ["setuptools"]
 name = "toml_test"
 version = "0.1.0"
 authors = [
-    {name ="Me"},
-    {author_email = "your@email.address"}
-    ]
+    {name = "Josiah Carberry", email = "josiah_carberry@brown.edu"},
+]
 description = "Example package description"
 readme = "README.md"
 keywords = ["example", "setuptools"]
