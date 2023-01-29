@@ -3,5 +3,9 @@
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "tomltest"
+dynamic = ["dependencies"]
+
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
